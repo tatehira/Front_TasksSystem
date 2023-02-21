@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+    position: top;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.logo img {
+    padding: 15 10;
+}
+
+.login {
+    max-width: 100%;
+    border: 6px solid red;
+}
+.login h2{
+    text-align: center;
+    cursor:pointer;
+    padding: 10 10;
+}
+.opcoesLogin h2 {
+    width: 50%;
+    text-align: center;
+
+}
+
+.loginUser {
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.loginUser input {
+    margin-top: 15px;
+    padding: 15 10;
+    width: 30%;
+    border-radius: 5px;
+    border: 3px solid black;
+    color: black;
+    font-size: 20px;
+}
+
+.recuperacao {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.recuperacao input {
+    padding: 10 10;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.loginRedesSociais {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.loginRedesSociais h3 {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.w100 {
+    width: 100%;
+    text-align: center;
+}
+
+.w100 img {
+    max-width: 50%;
+    max-height: 50%;
+}
