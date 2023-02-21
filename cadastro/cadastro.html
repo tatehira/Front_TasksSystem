@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Tela de cadastro</title>
+</head>
+
+<body>
+    <section class="cadastro">
+        <h2>CADASTRO</h2>
+        <p>Preencha todos os campos</p>
+        <div class="cadastroUser">
+            <div class="w100"><input type="text" name="name" placeholder="Nome completo"></div>
+            <div class="w100"><input type="text" name="nomeUser" placeholder="Nome de usuário"></div>
+            <div class="w100"><input type="text" name="cpfUser" placeholder="Digite seu CPF:"></div>
+            <div class="w100"><input type="e-mail" name="e-mail" placeholder="Digite um e-mail"></div>
+        </div><!--cadastroUser-->
+        
+        <div class="selectorTarefa">
+            <h3>TAREFA:</h3>
+            <select name="tarefa" id="iest">
+                <option value="escolha" selected=""><h3>--- Escolha ---</h3></option>
+                <option value="commit">GITHUB</option>
+                <option value="JS">JAVA SCRIPT</option>
+                <option value="C#">C SHARP</option>
+                <option value="Java">JAVA</option>
+
+            </select>
+
+        </div><!--selectorTarefa-->
+        <div class="enviar">
+            <input type="submit" value="Enviar"></imput>
+        </div><!--enviar-->
+
+    </section><!--cadastro-->
+
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    body {
+        border: 5px solid red;
+        padding: 10px 5px;
+        background-color: forestgreen;
+    }
+
+    .cadastro {
+        max-width: 100%;
+      
+    }
+
+    .cadastro h2 {
+        text-align: center;
+        text-shadow: 1px 1px 0;
+    }
+
+    .cadastro p {
+        text-align: center;
+        text-shadow: 1px 0;
+    }
+
+    .cadastroUser {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 10 10;
+    }
+
+    .w100 {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .w100 input{
+       
+    }
+
+    .cadastroUser input {
+        width: 40%;
+        padding: 20px 20px;
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+        background-color: rgb(255, 255, 255);
+    }
+    .selectorTarefa{
+        width: 100%;
+        display: flex;
+        padding: 10px 20px ;
+
+
+    }
+    .selectorTarefa select{
+        width:10%;
+        font-size: 20px;
+
+    }
+    .selectorTarefa select option {
+        font-size: 18px;
+
+    }
+    .selectorTarefa h3{
+        padding-right: 15px;
+        font-size:20px ;
+        text-shadow: 1px 1px 0;
+    }
+    .enviar{
+        text-align: center;
+    }
+    .enviar input[type="submit"]{
+        width:10%;
+        font-size: 20px;
+        text-shadow: 1px 0;
+        cursor: pointer;
+    } 
+</style>
+
+</html>
